@@ -16,14 +16,15 @@ public class FruitQuiz extends KeyAdapter {
 		question1 = new JLabel(
 				"<html>Which is not a real animal? <br> A: Flubber Monkey <br> B: Pink Fairy Armadillo <br> C: Dumbo Octopus</html>");
 		// 11. Make another question called "question2"
-		
+		question1 = new JLabel(
+				"<html>Which is not a real animal? <br> A: Flubber Monkey <br> B: Pink Fairy Armadillo <br> C: Dumbo Octopus</html>");
 	}
 
 	@Override
 	public void keyPressed(KeyEvent arg0) {
 		int keyCode = arg0.getKeyCode();
 		// 1. Print out the key code variable
-		
+		System.out.println(keyCode);
 
 		// 2. Make 3 variables that hold the key codes for apple, banana and carrot
 

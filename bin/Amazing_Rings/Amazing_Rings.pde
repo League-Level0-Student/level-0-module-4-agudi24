@@ -8,7 +8,7 @@ void setup(){
   noFill();
 }
 void draw(){
-  background(#22DD00);
+  background(500, 500);
   int w = 250;
   int h = 250;
   for(int i=50; i>0; i--){

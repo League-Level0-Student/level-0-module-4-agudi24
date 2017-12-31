@@ -8,7 +8,6 @@ public class SimpleCalculator {
 
 		for (int i = 0; i < 4; i++) {
 			// 1. Get 2 numbers from the user and convert them to integer.
-			DecimalFormat df = new DecimalFormat("0.00");
 			String n = JOptionPane.showInputDialog(null, "what is your first favorite number");
 			String nn = JOptionPane.showInputDialog(null, "what is your second favorite number");
 			int n2 = Integer.parseInt(nn);
@@ -31,7 +30,6 @@ public class SimpleCalculator {
 			} else if (operation == 2) {
 				multiply(n1, n2);
 			}
-			df.format(operation);
 		}
 		// 6. Wrap steps 1, 2 and 5 in a for loop to repeat calculator operations
 	}
